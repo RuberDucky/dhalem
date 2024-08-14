@@ -1,5 +1,6 @@
 import { FaSearch } from "react-icons/fa"; // Importing search icon
 import houseImage from "@/assets/house.jpg";
+import womenImage from "@/assets/woman.png";
 import Image from "next/image";
 
 export const Hero = () => {
@@ -10,8 +11,20 @@ export const Hero = () => {
           className="text-2xl sm:text-3xl md:text-4xl mt-0 ml-4 font-extrabold text-left md:mr-2"
           style={{ color: "#023524", lineHeight: "1.3" }}
         >
-          Bring Your Family's Happiness to Your{" "}
-          <span className="block sm:inline">Dream House</span>
+          <div className="text-left">
+            <p className="block sm:hidden">
+              Bring Your Family's Happiness to Your Dream House
+            </p>
+            <p className="hidden sm:block md:hidden">
+              Bring Your Family's Happiness to Your Dream House
+            </p>
+            <p className="hidden md:block lg:hidden">
+              Bring Your Family's Happiness to Your Dream House
+            </p>
+            <p className="hidden lg:block">
+              Bring Your Family's Happiness to Your Dream House
+            </p>
+          </div>
         </h4>
         <p
           className="text-[10px] sm:text-[11px] md:text-[12px] mt-4 ml-4 mr-6 text-left"
@@ -69,9 +82,41 @@ export const Hero = () => {
             </p>
           </div>
         </div>
-        <div className="mt-6 rounded-[16px] overflow-hidden mx-4">
-          <Image src={houseImage} alt="House" height={240} width={328} />
+        <div className="mt-6 ml-4 mr-4 flex justify-center">
+          <Image
+            src={houseImage}
+            alt="House"
+            className="rounded-[16px] w-full h-auto md:w-[664px] md:h-[480px] lg:w-[328px] lg:h-[240px]"
+          />
         </div>
+      </div>
+      <div className="container lg:flex lg:items-start lg:justify-between lg:mt-20">
+        <div className="lg:w-1/2 lg:mt-0 lg:flex lg:flex-col lg:justify-start">
+          <h4
+            className="hidden lg:block text-[56px] font-extrabold text-left ml-20"
+            style={{ color: "#023524", lineHeight: "1.3" }}
+          >
+            TRANSFORMATION
+            <br />
+            BEGINS WITH “T’’
+          </h4>
+          <p
+            className="hidden lg:block text-[16px] mt-4 ml-20"
+            style={{ color: "#666666", lineHeight: "1.5" }}
+          >
+            Just think, you're not here by mere coincidence, but by a higher
+            power, to fulfill a purpose.
+          </p>
+        </div>
+        <div className="hidden md:hidden lg:block justify-center lg:justify-end lg:ml-10">
+  <Image
+    src={womenImage}
+    alt="Women"
+    width={448}
+    height={520}
+    className="rounded-[16px]"
+  />
+</div>
       </div>
     </section>
   );

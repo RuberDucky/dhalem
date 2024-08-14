@@ -2,3 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
+.sticky {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    backdrop-filter: blur(10px); /* Apply blur effect */
+    background-color: rgba(255, 255, 255, 0.8); /* Slight transparency */
+    transition: backdrop-filter 0.3s ease, background-color 0.3s ease;
+  }
+  
+  .sticky.scrolled {
+    backdrop-filter: blur(20px); /* Increase blur on scroll */
+    background-color: rgba(255, 255, 255, 1); /* Fully opaque when scrolled */
+  }
+    

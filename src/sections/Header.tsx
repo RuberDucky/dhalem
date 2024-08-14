@@ -5,21 +5,31 @@ import ArrowDropDown from "@/assets/arrow_drop_down.png";
 
 export const Header = () => {
   return (
-    <header className="sticky top-0 backdrop-blur-sm">
-      <div className="py-5  px-5 md:px-6 lg:px-0">
-        <div className="container">
+    <header className="sticky top-0 backdrop-blur-md bg-white bg-opacity-70 z-50">
+      <div className="py-5 px-5 md:px-6 lg:px-0">
+        <div className="container mx-auto">
           <div className="flex items-center justify-between">
-            <div className="flex items-center md:flex lg:hidden md:ml-0">
+            {/* Mobile Header */}
+            <div className="flex items-center lg:hidden">
               <Image src={logo} alt="logo" height={24} width={24} />
-              <h5 className="ml-2 font-bold text-[24px]" style={{ color: '#023524' }}>dhalem</h5>
+              <h5 className="ml-2 font-bold text-[24px]" style={{ color: "#023524" }}>
+                dhalem
+              </h5>
             </div>
-            <div className="flex items-center md:flex lg:hidden">
+
+            {/* Mobile Menu & Button */}
+            <div className="flex items-center lg:hidden">
               <Image src={MenuIcon} alt="Menu icon" className="h-6 w-6" />
-              <button className="ml-4 text-[12px] md:ml-6 px-4 py-1 text-white rounded-full" style={{ backgroundColor: '#023524' }}>
+              <button
+                className="ml-4 text-[12px] md:ml-6 px-4 py-1 text-white rounded-full"
+                style={{ backgroundColor: "#023524" }}
+              >
                 Get Quote
               </button>
             </div>
-            <nav className="hidden lg:flex items-center space-x-6 ml-auto lg:mr-6 md:mr-6">
+
+            {/* Desktop Navigation */}
+            <nav className="hidden lg:flex items-center space-x-6 ml-auto">
               <a href="#" className="text-[#666666] text-[14px] hover:text-black">Home</a>
               <a href="#" className="text-[#666666] text-[14px] hover:text-black">Listing</a>
               <a href="#" className="text-[#666666] text-[14px] hover:text-black">Services</a>
@@ -45,7 +55,7 @@ export const Header = () => {
                   <a href="#" className="block px-4 py-2 text-[#666666] text-[14px] hover:bg-gray-100">Page Item 2</a>
                 </div>
               </div>
-              <button className="ml-4 px-4 py-2 text-white rounded-full" style={{ backgroundColor: '#023524' }}>
+              <button className="ml-4 px-4 py-2 text-white rounded-full" style={{ backgroundColor: "#023524" }}>
                 My Free Consult
               </button>
             </nav>
