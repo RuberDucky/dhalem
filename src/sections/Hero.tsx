@@ -13,16 +13,16 @@ export const Hero = () => {
         >
           <div className="text-left">
             <p className="block sm:hidden">
-              Bring Your Family's Happiness to Your Dream House
+              Bring Your Family Happiness to Your Dream House
             </p>
             <p className="hidden sm:block md:hidden">
-              Bring Your Family's Happiness to Your Dream House
+              Bring Your Family Happiness to Your Dream House
             </p>
             <p className="hidden md:block lg:hidden">
-              Bring Your Family's Happiness to Your Dream House
+              Bring Your Family Happiness to Your Dream House
             </p>
             <p className="hidden lg:block">
-              Bring Your Family's Happiness to Your Dream House
+              Bring Your Family Happiness to Your Dream House
             </p>
           </div>
         </h4>
@@ -106,7 +106,7 @@ export const Hero = () => {
             className="hidden lg:block text-[16px] mt-4"
             style={{ color: "#666666", lineHeight: "1.5" }}
           >
-            Just think, you're not here by mere coincidence, but by a higher
+            Just think, you are not here by mere coincidence, but by a higher
             power, to fulfill a purpose.
           </p>
         </div>

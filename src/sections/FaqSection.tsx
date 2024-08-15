@@ -7,7 +7,7 @@ export const FAQSection = () => {
             {/* FAQ Text */}
             <div className="mb-4 lg:mb-6">
               <h4 className="text-2xl md:text-3xl font-bold" style={{ color: "#023524" }}>
-                FAQ's
+                FAQs
               </h4>
               <p className="mt-2 text-sm md:text-base" style={{ color: "#666666" }}>
                 Get answers to the most common questions about our services, policies, and more. If you have any additional questions, feel free to contact us directly.

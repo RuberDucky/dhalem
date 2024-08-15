@@ -27,7 +27,7 @@ export const VisionMissionSection = () => {
             your family can thrive and create lasting memories. Our homes are
             designed with your comfort and happiness in mind, offering spacious
             living areas, modern amenities, and beautiful surroundings. Whether
-            you're looking for a cozy starter home or a luxurious estate, we
+            you are looking for a cozy starter home or a luxurious estate, we
             have something to suit every lifestyle and budget. Join our
             community and start building your future today.
           </p>
@@ -60,7 +60,7 @@ export const VisionMissionSection = () => {
             your family can thrive and create lasting memories. Our homes are
             designed with your comfort and happiness in mind, offering spacious
             living areas, modern amenities, and beautiful surroundings. Whether
-            you're looking for a cozy starter home or a luxurious estate, we
+            you are looking for a cozy starter home or a luxurious estate, we
             have something to suit every lifestyle and budget. Join our
             community and start building your future today.
           </p>

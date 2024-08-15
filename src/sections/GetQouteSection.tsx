@@ -8,7 +8,7 @@ export const GetQuoteSection = () => {
           className="text-2xl md:text-3xl lg:text-4xl font-bold"
           style={{ color: "#023524" }}
         >
-          Let's Move to Your Dream Family Home
+          Lets Move to Your Dream Family Home
         </h2>
         <p
           className="mt-4 text-sm md:text-base lg:text-lg"
