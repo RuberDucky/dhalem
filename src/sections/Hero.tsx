@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export const Hero = () => {
   return (
-    <section className="hero-section py-10">
+    <section className="hero-section">
       <div className="container lg:hidden">
         <h4
           className="text-2xl sm:text-3xl md:text-4xl mt-0 ml-4 font-extrabold text-left md:mr-2"
@@ -90,10 +90,12 @@ export const Hero = () => {
           />
         </div>
       </div>
+
       <div className="container lg:flex lg:items-start lg:justify-between lg:mt-20">
-        <div className="lg:w-1/2 lg:mt-0 lg:flex lg:flex-col lg:justify-start">
+        {/* Text Section */}
+        <div className="lg:w-1/2 lg:flex lg:flex-col lg:justify-start lg:pr-8 lg:ml-20">
           <h4
-            className="hidden lg:block text-[56px] font-extrabold text-left ml-20"
+            className="hidden lg:block text-[56px] font-extrabold text-left"
             style={{ color: "#023524", lineHeight: "1.3" }}
           >
             TRANSFORMATION
@@ -101,22 +103,24 @@ export const Hero = () => {
             BEGINS WITH “T’’
           </h4>
           <p
-            className="hidden lg:block text-[16px] mt-4 ml-20"
+            className="hidden lg:block text-[16px] mt-4"
             style={{ color: "#666666", lineHeight: "1.5" }}
           >
             Just think, you're not here by mere coincidence, but by a higher
             power, to fulfill a purpose.
           </p>
         </div>
-        <div className="hidden md:hidden lg:block justify-center lg:justify-end lg:ml-10">
-  <Image
-    src={womenImage}
-    alt="Women"
-    width={448}
-    height={520}
-    className="rounded-[16px]"
-  />
-</div>
+
+        {/* Image Section */}
+        <div className="hidden lg:flex lg:justify-end lg:pl-8 mr-5">
+          <Image
+            src={womenImage}
+            alt="Women"
+            width={448}
+            height={520}
+            className="rounded-[16px]"
+          />
+        </div>
       </div>
     </section>
   );

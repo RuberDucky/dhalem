@@ -57,7 +57,7 @@ import PropertyCard from "@/components/FeaturedPropertyProps";
 
     return (
         <div>
-        <div className="mt-8 ml-5 text-left text-[24px] font-bold lg:text-[40px] lg:ml-20 ">
+        <div className="mt-12 ml-5 text-left text-[24px] font-bold lg:text-[40px] lg:ml-20 ">
             <h5 style={{ color: "#023524", lineHeight: "1.3" }}>
             Featured Listing
             </h5>
