@@ -59,7 +59,7 @@ export const Footer = () => {
               <Image src={logo} alt="Logo" className="w-32 mb-4" />
             </div>
             <div className="flex-1">
-              <h3 className="text-xl font-bold" style={{ color: "#023524" }}>Website Name</h3>
+              <h3 className="text-xl font-bold" style={{ color: "#023524" }}>dhalem</h3>
               <p className="text-sm mt-2 text-gray-600">
                 Your company’s description goes here. This can be a short and concise description of what your business offers.
               </p>
