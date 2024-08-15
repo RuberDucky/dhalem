@@ -9,7 +9,7 @@ const missionImageUrl =
 
 export const VisionMissionSection = () => {
   return (
-    <section className="py-8 px-4 md:px-8 lg:px-16">
+    <section className="py-8 px-4 md:px-8 lg:px-16 bg-[#FAFAFA]">
       {/* Vision Section */}
       <div className="flex flex-col md:flex-row items-center mb-12">
         <div className="md:w-1/2 md:pr-8">
