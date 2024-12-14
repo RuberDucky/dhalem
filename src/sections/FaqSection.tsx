@@ -1,4 +1,5 @@
 export const FAQSection = () => {
+// add the logic for handling the data from the API 
     return (
       <div className="">
         <div className="container mt-12 lg:mt-16 lg:ml-6 lg:text-center">
